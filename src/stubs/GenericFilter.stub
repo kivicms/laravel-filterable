@@ -1,0 +1,27 @@
+<?php
+
+namespace DummyNamespace;
+
+use Kivicms\LaravelFilterable\Generic\Filter;
+
+class DummyClass extends Filter
+{
+    /**
+     * Defines columns that end-user may filter by.
+     *
+     * @var array
+     */
+    protected $filterables = ['id'];
+
+
+    /**
+     * Define allowed generics, and for which fields.
+     * Read more in the documentation https://github.com/Kivicms/laravel-filterable#additional-configuration
+     *
+     * @return void
+     */
+    protected function settings()
+    {
+		//
+	}
+}
