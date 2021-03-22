@@ -52,7 +52,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KiviCms\\LaravelFilterable\\FilterableServiceProvider"
+                "Kivicms\\LaravelFilterable\\FilterableServiceProvider"
             ]
         }
     }
